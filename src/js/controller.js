@@ -95,7 +95,6 @@ const controlAddRecipe = async function (newRecipe) {
     //syncing current recipe with bookmarks
     bookmarksView.update(model.state.bookmarks);
     //close form
-    console.log('Welcome');
     setTimeout(function () {
       addRecipeView.toggleWindow();
     }, MODAL_CLOSE_SEC * 1000);
