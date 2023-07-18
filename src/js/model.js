@@ -137,4 +137,6 @@ const init = function () {
   if (storage) state.bookmarks = JSON.parse(storage);
 };
 
+console.log('welcome to the app');
+
 init();
